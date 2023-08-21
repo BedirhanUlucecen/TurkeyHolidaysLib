@@ -1,6 +1,6 @@
 import aq from "@umalqura/core";
 
-class TurkeyPublicHoliday {
+export default class TurkeyPublicHoliday {
   private getHijriYear(year: number): number {
     const diff = year - 622;
     const hijriYear = Math.round(diff / 0.97);
@@ -140,7 +140,3 @@ class TurkeyPublicHoliday {
     );
   }
 }
-
-const holidayService = new TurkeyPublicHoliday();
-
-console.log(holidayService.publicHolidayNames(2022));
