@@ -1,15 +1,24 @@
 {
-  "name": "holidayslib",
-  "version": "1.0.0",
+  "name": "turkish-holidays-lib",
+  "version": "1.0.7",
   "description": "This library calculates public holidays of Turkey.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
+  "keywords": [
+    "holidays",
+    "JavaScript",
+    "TypeScript",
+    "Utility",
+    "Date Functions"
+  ],
   "author": "Bedirhan Uluçeçen",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@umalqura/core": "^0.0.7",
-    "hijri-date": "^0.2.2"
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
   }
 }
