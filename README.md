@@ -8,6 +8,8 @@
 
 A utility library to calculate Turkey's public holidays based on the Gregorian calendar and Islamic Hijri calendar.
 
+[Link to the npm page](https://www.npmjs.com/package/turkish-holidays-lib)
+
 ## Installation
 
 You can install the package using npm:
